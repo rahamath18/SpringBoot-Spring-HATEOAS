@@ -51,9 +51,6 @@ public class HibernateConfiguration {
         properties.put("hibernate.format_sql", environment.getRequiredProperty("hibernate.format_sql"));
         properties.put("hibernate.hbm2ddl.auto", environment.getRequiredProperty("hibernate.hbm2ddl.auto"));
         properties.setProperty("hibernate.useSSL", "false");
-        logger.debug("\n\n");
-        logger.debug("HibernateConfiguration|sessionFactory|properties = " + properties);
-        logger.debug("\n\n");
         sessionFactory.setHibernateProperties(properties);
         
         return sessionFactory;

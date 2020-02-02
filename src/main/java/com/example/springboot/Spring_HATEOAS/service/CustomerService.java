@@ -17,7 +17,6 @@ import org.springframework.stereotype.Service;
 import com.example.springboot.Spring_HATEOAS.dao.CustomerDao;
 import com.example.springboot.Spring_HATEOAS.domain.Customer;
 import com.example.springboot.Spring_HATEOAS.dto.CustomerDto;
-import com.example.springboot.Spring_HATEOAS.dto.OrdersDto;
 
 @Service("customerService")
 @Transactional

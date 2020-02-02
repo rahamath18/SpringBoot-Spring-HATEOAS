@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.springboot.Spring_HATEOAS.domain.Customer;
 import com.example.springboot.Spring_HATEOAS.dto.CustomerDto;
 import com.example.springboot.Spring_HATEOAS.dto.OrdersDto;
 import com.example.springboot.Spring_HATEOAS.service.CustomerService;

@@ -13,8 +13,6 @@ import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
-import org.springframework.hateoas.RepresentationModel;
-
 @Entity
 @Table(name="CUSTOMER")
 @NamedQueries ({ 
