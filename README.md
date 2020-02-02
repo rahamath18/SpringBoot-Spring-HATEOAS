@@ -14,6 +14,16 @@
 	9. Postman Version 7.14.0
 
 
+### What is Spring HATEOAS?
+
+	Spring Hypertext as the Engine of Application State - Spring HATEOAS.
+	
+
+### What is the Use Case of this example?
+
+	The Use case of this example is 'Customer and his/her orders' application.
+
+	
 ### Use following URL to create spring boot initial application structure
 
 	https://start.spring.io/
